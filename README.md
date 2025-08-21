@@ -85,9 +85,13 @@ ISNULL → to fill missing values.
 ### 📊 Summary
 The data cleaning process is a crucial step in any data project. In this case study, I:
 ✔️ Standardized date formats.
+
 ✔️ Fixed missing and unstructured addresses.
+
 ✔️ Created new columns from unorganized data.
+
 ✔️ Standardized categorical variables.
+
 ✔️ Removed duplicates and unused information.
 
 As a result, the dataset is now much cleaner, standardized, and ready for accurate and reliable analysis.
