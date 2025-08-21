@@ -73,9 +73,13 @@ PropertyAddress
 
 ### 🛠️ Key SQL Functions Used
 UPDATE → to fix null values and standardize data.
+
 PARSENAME → to split parts of strings (addresses).
+
 ROW_NUMBER() → to detect duplicates.
+
 LTRIM, RTRIM → to remove unnecessary spaces.
+
 ISNULL → to fill missing values.
 
 ### 📊 Summary
