@@ -48,6 +48,7 @@ OwnerState → state
 The column SoldAsVacant contained numeric values (0 and 1).
 
 Converted them into text values for better readability:
+```sql
 CASE 
     WHEN SoldAsVacant = 0 THEN 'No'
     WHEN SoldAsVacant = 1 THEN 'Yes'
