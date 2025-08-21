@@ -39,8 +39,11 @@ AddressProperty → street
 City → city
 
 For OwnerAddress, I applied PARSENAME (after replacing commas with periods) to extract:
+
 OwnerSplitAddress → street
+
 OwnerCity → city
+
 OwnerState → state
 
 ### 4️⃣ Standardizing Categorical Variables
