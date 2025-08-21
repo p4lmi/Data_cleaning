@@ -20,9 +20,8 @@ With cleaner and more consistent data, future analysis and insights become **mor
 
 ### 1️⃣ Standardizing Dates  
 - The `SaleDate` column was in **datetime** format, containing both date and time.  
-- Applied:  
-  ```sql
-  CONVERT(date, SaleDate)
+- Applied:
+CONVERT(date, SaleDate)
 to keep only the date, ensuring consistency.
 
 ### 2️⃣ Fixing Missing Property Addresses
@@ -48,11 +47,11 @@ OwnerState → state
 The column SoldAsVacant contained numeric values (0 and 1).
 
 Converted them into text values for better readability:
-  ```sql
-  CASE 
-      WHEN SoldAsVacant = 0 THEN 'No'
-      WHEN SoldAsVacant = 1 THEN 'Yes'
-  END
+
+CASE 
+    WHEN SoldAsVacant = 0 THEN 'No'
+    WHEN SoldAsVacant = 1 THEN 'Yes'
+END
 
 ### 5️⃣ Removing Duplicates
 Duplicate records were detected in the dataset.
